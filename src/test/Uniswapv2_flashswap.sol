@@ -38,6 +38,5 @@ contract ContractTest is Test {
       weth.balanceOf(address(this))
     );
   }
-
   receive() external payable {}
 }
